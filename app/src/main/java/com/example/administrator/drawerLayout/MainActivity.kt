@@ -16,9 +16,11 @@ class MainActivity : AppCompatActivity() {
         initDrawerLayout()
     }
     /**
-    联动toolbar和DrawerLayout，设置抽屉内点击事件
+    *联动toolbar和DrawerLayout
     **/
     private fun initDrawerLayout() {
+        //设置toolbar为actionbar
+        setSupportActionBar(toolbar)
         //toolbar增加开启抽屉按钮
         val actionBarDrawerToggle = ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.open, R.string.close)
         drawerLayout.addDrawerListener(actionBarDrawerToggle)
