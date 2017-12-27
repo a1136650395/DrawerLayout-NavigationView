@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DrawerLayout</string>
+    <string name="communicate">通讯</string>
+    <string name="camera">相机</string>
+    <string name="gallery">图库</string>
+    <string name="slideshow">幻灯片</string>
+    <string name="manage">设置</string>
+    <string name="send">发送</string>
+    <string name="share">分享</string>
+    <string name="open">开</string>
+    <string name="close">闭</string>
+    <string name="header">header</string>
+</resources>
